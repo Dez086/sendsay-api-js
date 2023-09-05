@@ -1,6 +1,7 @@
 const MAX_REDIRECT_COUNT = 10;
 const VERSION = 100;
 const REQUEST_PREFIX = 'JS';
+const MAX_FLOAT = 0;
 
 function getCookie(name) {
   return (document.cookie.match(`(^|; )${name}=([^;]*)`) || 0)[2];
